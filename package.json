@@ -1,7 +1,7 @@
 {
   "name": "wp-mdb-t",
   "version": "1.0.0",
-  "description": "Wordpress 4.9.8 with MDB 4.5.11 Template",
+  "description": "Wordpress 4.9.8 with MDB 4.5.11 Avanti Website",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

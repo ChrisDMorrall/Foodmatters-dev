@@ -74,7 +74,7 @@ gulp.task('img-compression', function() {
 // Live Server
 gulp.task('live-server', function() {
   browserSync.init({
-    proxy: "http://localhost/templates/wp-mdb-t/",
+    proxy: "http://localhost/projects/avanti-mdb/",
     notify: false
   });
 
