@@ -51,15 +51,17 @@
 
   <div class="view intro-2" style="">
     <div class="full-bg-img">
-      <div class="mask rgba-stylish-strong flex-center">
-        <div class="container text-center white-text wow fadeInUp">
-          <h2>This Navbar is fixed and transparent</h2>
-          <br>
-          <h5>It will always stay visible on the top, even when you scroll down</h5>
-          <p>Navbar's background will switch from transparent to solid color while scrolling down</p>
-          <br>
-          <p>Full page intro with background image will be always displayed in full screen mode, regardless of
-            device </p>
+      <div class="mask rgba-teal-strong flex-center">
+        <div class="container text-center hero-text-1">
+          <div>
+            <h4 class="animated fadeInDown slow delay-1s">Visualise</h4>
+            <h4 class="animated fadeInLeft slow delay-2s">Formalise</h4>
+            <h4 class="animated fadeInRight slow delay-3s">Realise</h4>
+          </div>
+          <div>
+              <h1 class="animated fadeInUp slow delay-5s hero-text-2">Forward Thinking For The Digital Age</h1>
+              <button class="btn peach-gradient btn-rounded animated fadeInUp slow delay-5s">Peach</button>
+          </div>
         </div>
       </div>
     </div>

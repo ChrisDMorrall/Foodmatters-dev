@@ -16,8 +16,12 @@ Author URI: https://chrismorrall.me
   background-color: transparent; }
 
 .top-nav-collapse {
-  background-color: #4285F4; }
+  background-color: #BF7C00; }
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #4285F4; } }
+    background-color: #BF7C00; } }
+
+.hero-text-1 {
+  color: #0B347F;
+  font-weight: 700; }

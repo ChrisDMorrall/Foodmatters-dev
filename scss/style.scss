@@ -7,6 +7,33 @@ Author: Chris Morrall
 Author URI: https://chrismorrall.me
 */
 
+// Colour Palette
+
+$color-pr-0: #009686;	// Main Pr color */
+$color-pr-1: #42B2A6;
+$color-pr-2: #20A294;
+$color-pr-3: #00776A;
+$color-pr-4: #005D53;
+
+$color-s-1-0: #1043A0;	// Main S color (1) */
+$color-s-1-1: #5076BB;
+$color-s-1-2: #305CAC;
+$color-s-1-3: #0B347F;
+$color-s-1-4: #072763;
+
+$color-s-2-0: #F19D00;	// Main S color (2) */
+$color-s-2-1: #FFC65E;
+$color-s-2-2: #FFB733;
+$color-s-2-3: #BF7C00;
+$color-s-2-4: #956100;
+
+$color-c-0: #F16700;	// Main C color */
+$color-c-1: #FFA25E;
+$color-c-2: #FF8933;
+$color-c-3: #BF5100;
+$color-c-4: #953F00;
+
+
 // Heading and navbar
 
 .view {
@@ -20,11 +47,16 @@ Author URI: https://chrismorrall.me
 }
 
 .top-nav-collapse {
-   background-color: #4285F4;
+   background-color: $color-s-2-3;
 }
 
 @media only screen and (max-width: 768px) {
    .navbar {
-       background-color: #4285F4;
+       background-color: $color-s-2-3;
    }
+}
+
+.hero-text-1 {
+  color: $color-s-1-3;
+  font-weight: 700;
 }

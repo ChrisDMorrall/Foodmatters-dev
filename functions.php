@@ -1,13 +1,14 @@
 <?php
 
 /**
- * Include CSS files and JS Files   
+ * Include CSS files and JS Files
  */
 function theme_enqueue_scripts() {
         wp_enqueue_style( 'Font_Awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
+        wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Nunito', false );
+        wp_enqueue_style( 'Style', get_template_directory_uri() . '/style.css' );
         wp_enqueue_style( 'Bootstrap_css', get_template_directory_uri() . '/dist/css/bootstrap.min.css' );
         wp_enqueue_style( 'MDB', get_template_directory_uri() . '/dist/css/mdb.min.css' );
-        wp_enqueue_style( 'Style', get_template_directory_uri() . '/style.css' );
         wp_enqueue_script( 'jQuery', get_template_directory_uri() . '/dist/js/jquery-3.3.1.min.js', array(), '3.3.1', true );
         wp_enqueue_script( 'Tether', get_template_directory_uri() . '/dist/js/popper.min.js', array(), '1.0.0', true );
         wp_enqueue_script( 'Bootstrap', get_template_directory_uri() . '/dist/js/bootstrap.min.js', array(), '1.0.0', true );

@@ -826,8 +826,10 @@ $gradients: map-merge((
     "end": #7873f5
   ),
   "peach": (
-    "start": #FFD86F,
-    "end": #FC6262
+    // "start": #FFD86F,
+    // "end": #FC6262
+    "start": #FFC75E,
+    "end": #956100
   ),
   "aqua": (
     "start": #2096ff,
@@ -847,8 +849,10 @@ $gradients-rgba: map-merge((
     "end": rgba(120,115,245,.9)
   ),
   "peach": (
-    "start": rgba(255,216,111,.9),
-    "end": rgba(252,98,98,.9)
+    // "start": rgba(255,216,111,.9),
+    // "end": rgba(252,98,98,.9)
+    "start": rgba(255,199, 94,.9),
+    "end": rgba(149, 97,  0,.9)
   ),
   "aqua": (
     "start": rgba(32,150,255,.9),
