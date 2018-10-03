@@ -14,7 +14,7 @@
           </div>
           <div>
               <h1 class="animated fadeInUp slow delay-5s hero-text-1">Forward Thinking For The Digital Age</h1>
-              <button class="btn peach-gradient btn-rounded animated fadeInUp slow delay-5s">Peach</button>
+              <button class="btn peach-gradient btn-rounded animated fadeInUp slow delay-5s">Request Quote</button>
           </div>
         </div>
       </div>

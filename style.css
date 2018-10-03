@@ -20,7 +20,9 @@ Author URI: https://chrismorrall.me
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #BF7C00; } }
+    background-color: #BF7C00; }
+  .ml-auto {
+    margin-left: 0px; } }
 
 .hero-text-1 {
   color: #fff;
