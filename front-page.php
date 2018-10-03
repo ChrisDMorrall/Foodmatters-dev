@@ -1,8 +1,30 @@
 <?php get_header(); ?>
 
+
+<!-- Intro Section -->
+<section id="home">
+  <div class="view intro-2" style="">
+    <div class="full-bg-img">
+      <div class="mask rgba-teal-strong flex-center">
+        <div class="container text-center">
+          <div>
+            <h4 class="animated fadeInDown slow delay-1s hero-text-1">Visualise</h4>
+            <h4 class="animated fadeInLeft slow delay-2s hero-text-1">Formalise</h4>
+            <h4 class="animated fadeInRight slow delay-3s hero-text-1">Realise</h4>
+          </div>
+          <div>
+              <h1 class="animated fadeInUp slow delay-5s hero-text-1">Forward Thinking For The Digital Age</h1>
+              <button class="btn peach-gradient btn-rounded animated fadeInUp slow delay-5s">Peach</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Intro Section -->
+
 <!--Main Layout-->
 <main class="text-center py-5">
-
   <div class="container">
     <div class="row">
       <div class="col-md-12">

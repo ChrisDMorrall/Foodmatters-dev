@@ -94,7 +94,7 @@ gulp.task('mdb-go', function() {
 });
 
 // Copy style.css and index.php to root directory
-gulp.task('copy',function(){
+gulp.task('copy', ['css-compile'], function(){
   return gulp.src([
       './dist/css/style.css',
       './dist/index.php'
