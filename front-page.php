@@ -3,7 +3,7 @@
 
 <!-- Intro Section -->
 <section id="home">
-  <div class="view intro-2" style="">
+  <div class="view intro-background jarallax" data-jarallax='{"speed": 0.2}'>
     <div class="full-bg-img">
       <div class="mask rgba-teal-strong flex-center">
         <div class="container text-center">
@@ -14,7 +14,7 @@
           </div>
           <div>
               <h1 class="animated fadeInUp slow delay-5s hero-text-1">Forward Thinking For The Digital Age</h1>
-              <button class="btn peach-gradient btn-rounded animated fadeInUp slow delay-5s">Request Quote</button>
+              <button class="btn btn-outline-white peach-gradient btn-rounded animated fadeInUp slow delay-5s">Request Quote</button>
           </div>
         </div>
       </div>
@@ -22,30 +22,118 @@
   </div>
 </section>
 <!-- Intro Section -->
-
-<!--Main Layout-->
-<main class="text-center py-5">
+<hr class="w-75 mt-5">
+<!--Services Section-->
+<section class="text-center my-5">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Our Services</h2>
+    <!-- Section description -->
+    <p class="text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
 
-        <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum.</p>
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-6 col-md-6 mb-4 mb-md-0 px-5">
+
+        <!-- Card -->
+        <div class="card card-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/img/mountain-1.jpg');">
+
+          <!-- Service card -->
+          <div class="text-white text-center pricing-card d-flex align-items-center mask aqua-gradient-rgba py-3 px-3 rounded">
+
+            <!-- Content -->
+            <div class="card-body">
+
+              <!-- Service -->
+              <div class="pt-0">
+                <h2 class="mb-0">Web</h2>
+              </div>
+
+              <ul class="striped mb-0">
+                <li>
+                  <p><strong>Web Design</strong></p>
+                </li>
+                <li>
+                  <p><strong>Web Hosting</strong></p>
+                </li>
+                <li>
+                  <p><strong>Domain Names</strong></p>
+                </li>
+                <li>
+                  <p><strong>Email</strong></p>
+                </li>
+                <li>
+                  <p><strong>Support</strong></p>
+                </li>
+              </ul>
+              <a class="btn btn-outline-white btn-rounded waves-effect">Enquire</a>
+
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Service card -->
+
+        </div>
+        <!-- Card -->
 
       </div>
-    </div>
-  </div>
+      <!-- Grid column -->
 
-</main>
-<!--Main Layout-->
+      <!-- Grid column -->
+      <div class="col-lg-6 col-md-6 mb-md-0 mb-4 px-5">
+
+        <!-- Card -->
+        <div class="card card-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/img/mountain-3.jpg');">
+
+          <!-- Service card -->
+          <div class="text-white text-center pricing-card d-flex align-items-center mask peach-gradient-rgba py-3 px-3 rounded">
+
+            <!-- Content -->
+            <div class="card-body">
+
+              <!-- Service -->
+              <div class="pt-0">
+                <h2 class="mb-0">Marketing</h2>
+              </div>
+
+              <ul class="striped mb-0">
+                <li>
+                  <p><strong>SEO</strong></p>
+                </li>
+                <li>
+                  <p><strong>Logo Design</strong></p>
+                </li>
+                <li>
+                  <p><strong>Graphic Design</strong></p>
+                </li>
+                <li>
+                  <p><strong>Social Media</strong></p>
+                </li>
+                <li>
+                  <p><strong>Photography</strong></p>
+                </li>
+              </ul>
+              <a class="btn btn-outline-white btn-rounded">Enquire</a>
+
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Service card -->
+
+        </div>
+        <!-- Card -->
+
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+</section>
+<!--Services Section-->
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
