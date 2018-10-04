@@ -6,8 +6,8 @@ Version: 4.5.5
 Author: Chris Morrall
 Author URI: https://chrismorrall.me
 */
-.view {
-  background: url("dist/img/header-background-3.jpg") no-repeat center center;
+.intro-background {
+  background: url("dist/img/header-background.jpg") no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
   height: 80vh; }
@@ -25,3 +25,6 @@ Author URI: https://chrismorrall.me
 .hero-text-1 {
   color: #fff;
   font-weight: 700; }
+
+.wow {
+  visibility: hidden; }

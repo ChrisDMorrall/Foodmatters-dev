@@ -9,6 +9,7 @@
     <title>
         <?php bloginfo( 'name'); ?>
     </title>
+
     <?php wp_head(); ?>
 </head>
 
@@ -24,7 +25,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav justify-content-center w-75">
+      <ul class="navbar-nav justify-content-center w-75 smooth-scroll">
         <li class="nav-item active">
           <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
