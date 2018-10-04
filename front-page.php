@@ -8,6 +8,8 @@
       <div class="mask rgba-teal-strong flex-center">
         <div class="container text-center">
           <div>
+            <h1 class="animated zoomIn slow">Avanti</h1>
+            <h1 class="animated zoomIn slow mb-5">Logo Here</h1>
             <h4 class="animated fadeInDown slow delay-1s hero-text-1">Visualise</h4>
             <h4 class="animated fadeInLeft slow delay-2s hero-text-1">Formalise</h4>
             <h4 class="animated fadeInRight slow delay-3s hero-text-1">Realise</h4>
@@ -22,20 +24,20 @@
   </div>
 </section>
 <!-- Intro Section -->
-<hr class="w-75 mt-5">
+<hr class="w-75 mt-5" id="services">
 <!--Services Section-->
 <section class="text-center my-5">
   <div class="container">
     <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold text-center my-5">Our Services</h2>
+    <h2 class="h1-responsive font-weight-bold text-center my-5 pt-3 wow zoomInUp slow" data-wow-offset="50">Our Services</h2>
     <!-- Section description -->
-    <p class="text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+    <p class="text-center w-responsive mx-auto mb-5 wow zoomInUp slow" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
 
     <!-- Grid row -->
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-lg-6 col-md-6 mb-4 mb-md-0 px-5">
+      <div class="col-lg-6 col-md-6 mb-4 mb-md-0 px-5 wow zoomInUp slow" data-wow-delay="1s">
 
         <!-- Card -->
         <div class="card card-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/img/mountain-1.jpg');">
@@ -83,7 +85,7 @@
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-lg-6 col-md-6 mb-md-0 mb-4 px-5">
+      <div class="col-lg-6 col-md-6 mb-md-0 mb-4 px-5 wow zoomInUp slow" data-wow-delay="1s">
 
         <!-- Card -->
         <div class="card card-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/dist/img/mountain-3.jpg');">
