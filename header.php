@@ -41,7 +41,7 @@
       </ul>
       <ul class="nav navbar-nav ml-lg-auto w-25 justify-content-end d-none d-lg-block">
         <li class="nav-item text-white">
-            <i class="fa fa-mobile fa-lg" aria-hidden="true"></i><span> +44 (0)7919 363929</span>
+            <i class="fas fa-mobile-alt fa-lg" aria-hidden="true"></i><span> +44 (0)7919 363929</span>
         </li>
       </ul>
     </div>

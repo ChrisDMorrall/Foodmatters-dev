@@ -12,7 +12,7 @@
             <h1 class="animated zoomIn slow mb-5">Logo Here</h1>
             <h4 class="animated fadeInDown slow delay-1s hero-text-1">Visualise</h4>
             <h4 class="animated fadeInLeft slow delay-2s hero-text-1">Formalise</h4>
-            <h4 class="animated fadeInRight slow delay-3s hero-text-1">Realise</h4>
+            <h4 class="mb-4 animated fadeInRight slow delay-3s hero-text-1">Realise</h4>
           </div>
           <div>
               <h1 class="animated fadeInUp slow delay-5s hero-text-1">Forward Thinking For The Digital Age</h1>
@@ -29,7 +29,7 @@
 <section class="text-center my-5">
   <div class="container">
     <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold text-center my-5 pt-3 wow zoomInUp slow" data-wow-offset="50">Our Services</h2>
+    <h2 class="h1-responsive font-weight-bold text-center my-5 pt-3 wow zoomInUp slow">Our Services</h2>
     <!-- Section description -->
     <p class="text-center w-responsive mx-auto mb-5 wow zoomInUp slow" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
 
@@ -136,11 +136,76 @@
   </div>
 </section>
 <!--Services Section-->
+<hr class="w-75 my-5" id="portfolio">
+<!-- Portfolio Section -->
+<section class="my-5">
+  <div class=" portfolio-background jarallax" data-jarallax='{"speed": 0.2}'>
+    <div class="full-bg-img">
+      <div class="mask peach-gradient-rgba">
+        <div class="container">
+            <h1 class="text-center h1-responsive font-weight-bold text-white py-5 wow zoomInUp slow">Portfolio</h1>
+            <p class="text-center text-white w-responsive mx-auto mb-5 wow zoomInUp slow" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+              <div class="row pb-4">
+                <div class="col-lg-4 my-4 px-5">
+                  <div class="card card-cascade wider wow zoomInUp slow" data-wow-delay="0.5s">
+                    <!-- Card image -->
+                    <div class="view view-cascade overlay">
+                      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/dist/img/fmio.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <!-- Card content -->
+                    <div class="card-body card-body-cascade text-center">
+                      <!-- Title -->
+                      <h4 class="card-title"><i class="fas fa-utensils fa-xs"></i><strong> Food Matters Inside & Out</strong></h4>
+                      <!-- Subtitle -->
+                      <h5 class="blue-text pb-2"><strong>Charity Organisation</strong></h5>
+                      <!-- Text -->
+                      <p class="card-text pb-3"> Food Matters Inside and Out is a project run by the not-for-profit organisation Food Matters to promote healthy eating within the UK prison service</p>
+                      <a href="http://www.foodmattersinsideout.org/" class="btn peach-gradient btn-rounded" target="_blank">View Site</a>
+                    </div>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                  </div>
+                </div>
+                <div class="col-lg-4 my-4 px-5">
+                  <div class="card card-cascade wider wow zoomInUp slow" data-wow-delay="0.5s">
+                    <div class="view view-cascade overlay">
+                      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/dist/img/fmio.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body card-body-cascade text-center">
+                      <h4 class="card-title"><i class="fas fa-utensils fa-xs"></i><strong> Food Matters Inside & Out</strong></h4>
+                      <h5 class="blue-text pb-2"><strong>Charity Organisation</strong></h5>
+                      <p class="card-text pb-3"> Food Matters Inside and Out is a project run by the not-for-profit organisation Food Matters to promote healthy eating within the UK prison service</p>
+                      <a href="http://www.foodmattersinsideout.org/" class="btn peach-gradient btn-rounded" target="_blank">View Site</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 my-4 3 px-5">
+                  <div class="card card-cascade wider wow zoomInUp slow" data-wow-delay="0.5s">
+                    <div class="view view-cascade overlay">
+                      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/dist/img/fmio.jpg" alt="Card image cap">
+                      <a href="#!">
+                        <div class="mask rgba-white-slight"></div>
+                      </a>
+                    </div>
+                    <div class="card-body card-body-cascade text-center">
+                      <h4 class="card-title"><i class="fas fa-utensils fa-xs"></i><strong> Food Matters Inside & Out</strong></h4>
+                      <h5 class="blue-text pb-2"><strong>Charity Organisation</strong></h5>
+                      <p class="card-text pb-3"> Food Matters Inside and Out is a project run by the not-for-profit organisation Food Matters to promote healthy eating within the UK prison service</p>
+                      <a href="http://www.foodmattersinsideout.org/" class="btn peach-gradient btn-rounded" target="_blank">View Site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-  <?php the_content(); ?>
-
-<?php endwhile;  endif;?>
-
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portfolio Section -->
 <?php get_footer(); ?>
