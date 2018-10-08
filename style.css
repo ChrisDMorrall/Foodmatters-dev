@@ -34,3 +34,9 @@ Author URI: https://chrismorrall.me
   -webkit-background-size: cover;
   background-size: cover;
   height: 100%; }
+
+.contact-background {
+  background: url("dist/img/field.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%; }

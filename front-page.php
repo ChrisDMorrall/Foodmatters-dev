@@ -208,4 +208,204 @@
   </div>
 </section>
 <!-- Portfolio Section -->
+
+<hr class="w-75 mt-5" id="testimonials">
+
+<!--Testimonial Section-->
+<section class="text-center my-5">
+  <div class="container">
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5 pt-3 wow zoomInUp slow">Testimonials</h2>
+    <!-- Section description -->
+    <p class="text-center w-responsive mx-auto mb-5 wow zoomInUp slow" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-4 mb-4 mb-md-0 px-5 wow zoomInUp slow" data-wow-delay="1s">
+
+        <!-- Card -->
+        <div class="card testimonial-card">
+
+            <!-- Bacground color -->
+            <div class="card-up aqua-gradient">
+            </div>
+
+            <!-- Avatar -->
+            <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle">
+            </div>
+
+            <div class="card-body">
+                <!-- Name -->
+                <h4 class="card-title">Anna Doe</h4>
+                <hr>
+                <!-- Quotation -->
+                <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci <i class="fa fa-quote-right"></i></p>
+            </div>
+
+        </div>
+        <!-- Card -->
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-4 mb-md-0 mb-4 px-5 wow zoomInUp slow" data-wow-delay="1s">
+
+        <!-- Card -->
+        <div class="card testimonial-card">
+
+            <!-- Bacground color -->
+            <div class="card-up peach-gradient">
+            </div>
+
+            <!-- Avatar -->
+            <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle">
+            </div>
+
+            <div class="card-body">
+                <!-- Name -->
+                <h4 class="card-title">Anna Doe</h4>
+                <hr>
+                <!-- Quotation -->
+                <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci <i class="fa fa-quote-right"></i></p>
+            </div>
+
+        </div>
+        <!-- Card -->
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-4 col-md-4 mb-md-0 mb-4 px-5 wow zoomInUp slow" data-wow-delay="1s">
+
+        <!-- Card -->
+        <div class="card testimonial-card">
+
+            <!-- Bacground color -->
+            <div class="card-up aqua-gradient">
+            </div>
+
+            <!-- Avatar -->
+            <div class="avatar mx-auto white"><img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle">
+            </div>
+
+            <div class="card-body">
+                <!-- Name -->
+                <h4 class="card-title">Anna Doe</h4>
+                <hr>
+                <!-- Quotation -->
+                <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci <i class="fa fa-quote-right"></i></p>
+            </div>
+
+        </div>
+        <!-- Card -->
+
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+</section>
+<!--Testimonial Section-->
+
+<hr class="w-75 mt-5" id="contact">
+
+<!-- Contact Section -->
+<section class="my-5">
+  <div class=" contact-background jarallax" data-jarallax='{"speed": 0.2}'>
+    <div class="full-bg-img">
+      <div class="mask aqua-gradient-rgba">
+        <div class="container">
+            <h1 class="text-center h1-responsive font-weight-bold text-white py-5 wow zoomInUp slow">Contact</h1>
+            <p class="text-center text-white w-responsive mx-auto mb-5 wow zoomInUp slow" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+              <div class="row pb-4">
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control text-white">
+                                    <label for="name" class="text-white">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control text-white">
+                                    <label for="email" class="text-white">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control text-white">
+                                    <label for="subject" class="text-white">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea text-white"></textarea>
+                                    <label for="message" class="text-white">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center  text-md-left">
+                        <a class="btn btn-outline-white peach-gradient btn-rounded" onclick="validateForm();">Send</a>
+                    </div>
+                    <div class="status" id="status"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center text-white">
+                    <ul class="list-unstyled mb-0">
+
+                        <li><i class="fas fa-mobile-alt mt-4 fa-2x"></i>
+                            <p>+44 (0) 7919 363 929</p>
+                        </li>
+
+                        <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                            <p>info@avantiwebsolutions.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portfolio Section -->
+
 <?php get_footer(); ?>
