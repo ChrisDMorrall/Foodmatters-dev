@@ -1253,9 +1253,9 @@
   background: linear-gradient(40deg, #ff6ec4, #7873f5) !important; }
 
 .peach-gradient {
-  background: -webkit-linear-gradient(50deg, #FFC75E, #956100) !important;
-  background: -o-linear-gradient(50deg, #FFC75E, #956100) !important;
-  background: linear-gradient(40deg, #FFC75E, #956100) !important; }
+  background: -webkit-linear-gradient(50deg, #FFCC59, #01B8F4) !important;
+  background: -o-linear-gradient(50deg, #FFCC59, #01B8F4) !important;
+  background: linear-gradient(40deg, #FFCC59, #01B8F4) !important; }
 
 .aqua-gradient {
   background: -webkit-linear-gradient(50deg, #2096ff, #05ffa3) !important;
@@ -7738,10 +7738,10 @@ button, html [type="button"], [type="reset"], [type="submit"] {
   color: #fff; }
   .btn.peach-gradient:hover, .btn.peach-gradient:focus, .btn.peach-gradient:active,
   .btn.peach-gradient:active:focus .btn.peach-gradient.active {
-    background: -webkit-gradient(linear, left top, left bottom, from(#ffd078), to(#af7200));
-    background: -webkit-linear-gradient(#ffd078, #af7200);
-    background: -o-linear-gradient(#ffd078, #af7200);
-    background: linear-gradient(#ffd078, #af7200); }
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffd473), to(#10c3fe));
+    background: -webkit-linear-gradient(#ffd473, #10c3fe);
+    background: -o-linear-gradient(#ffd473, #10c3fe);
+    background: linear-gradient(#ffd473, #10c3fe); }
 
 .btn.aqua-gradient {
   -webkit-transition: .5s ease;
@@ -16795,8 +16795,9 @@ section.team-section .avatar img {
     color: #6b89a5; }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
   font-weight: 400; }

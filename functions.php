@@ -5,7 +5,7 @@
  */
 function theme_enqueue_scripts() {
         wp_enqueue_style( 'Font_Awesome', 'https://use.fontawesome.com/releases/v5.3.1/css/all.css' );
-        wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Nunito', false );
+        wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro', false );
         wp_enqueue_style( 'Bootstrap_css', get_template_directory_uri() . '/dist/css/bootstrap.min.css' );
         wp_enqueue_style( 'MDB', get_template_directory_uri() . '/dist/css/mdb.min.css' );
         wp_enqueue_style( 'Style', get_template_directory_uri() . '/style.css' );

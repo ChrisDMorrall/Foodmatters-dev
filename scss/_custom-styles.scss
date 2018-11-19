@@ -1,51 +1,10 @@
 // Your custom styles
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
 }
-
-// Gradients
-$gradients: ();
-$gradients: map-merge((
-  "purple": (
-    "start": #ff6ec4,
-    "end": #7873f5
-  ),
-  "peach": (
-    "start": #FFC75E,
-    "end": #956100
-  ),
-  "aqua": (
-    "start": #2096ff,
-    "end": #05ffa3
-  ),
-  "blue": (
-    "start": #45cafc,
-    "end": $indigo-darken-2
-  ),
-), $gradients);
-
-// Gradients RGBA Version
-$gradients-rgba: ();
-$gradients-rgba: map-merge((
-  "purple": (
-    "start": rgba(255,110,196,.9),
-    "end": rgba(120,115,245,.9)
-  ),
-  "peach": (
-    "start": rgba(255,199, 94,.9),
-    "end": rgba(149, 97,  0,.9)
-  ),
-  "aqua": (
-    "start": rgba(32,150,255,.9),
-    "end": rgba(5,255,163,.9)
-  ),
-  "blue": (
-    "start": rgba(69,202,252,.9),
-    "end": rgba(48,63,159,.9)
-  ),
-), $gradients-rgba);

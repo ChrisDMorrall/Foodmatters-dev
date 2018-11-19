@@ -6,37 +6,52 @@ Version: 4.5.5
 Author: Chris Morrall
 Author URI: https://chrismorrall.me
 */
-.intro-background {
-  background: url("dist/img/header-background.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  background-size: cover;
+/* Necessary for full page carousel*/
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%; }
+
+.carousel-inner {
   height: 100vh; }
 
-.navbar {
-  background-color: transparent; }
+.carousel-item:nth-child(1) {
+  background-image: url("dist/img/header-bg-1.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-item:nth-child(2) {
+  background-image: url("dist/img/header-bg-2.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-item:nth-child(3) {
+  background-image: url("dist/img/header-bg-3.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center; }
+
+.carousel-item:nth-child(4) {
+  background-image: url("dist/img/header-bg-4.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center; }
 
 .top-nav-collapse {
-  background-color: #BF7C00; }
+  background-color: #01B8F4; }
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #BF7C00; } }
-
-.hero-text-1 {
-  color: #fff;
-  font-weight: 700; }
-
-.wow {
-  visibility: hidden; }
-
-.portfolio-background {
-  background: url("dist/img/floors.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  background-size: cover;
-  height: 100%; }
-
-.contact-background {
-  background: url("dist/img/field.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  background-size: cover;
-  height: 100%; }
+    background-color: #01B8F4; } }

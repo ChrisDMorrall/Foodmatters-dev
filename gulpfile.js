@@ -74,7 +74,7 @@ gulp.task('img-compression', function() {
 // Live Server
 gulp.task('live-server', function() {
   browserSync.init({
-    proxy: "http://localhost/projects/avanti-mdb/",
+    proxy: "http://localhost/projects/fm-dev/",
     notify: false
   });
 
