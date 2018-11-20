@@ -1,8 +1,8 @@
 /*
-Theme Name: MDB Template
+Theme Name: Food Matters Theme
 Theme URI:
-Description: WP Template theme developed on Material Design for Bootstrap 4
-Version: 4.5.5
+Description: Theme developed on Material Design for Bootstrap 4
+Version: 1.0
 Author: Chris Morrall
 Author URI: https://chrismorrall.me
 */
@@ -11,6 +11,22 @@ $color-pr: #62883d; // Main Pr color */
 $color-sec1: #ff72a0; // Main S color (1) */
 $color-sec2: #FFCC59; // Main S color (2) */
 $color-com: #01B8F4; // Main C color */
+
+.fm-pink-text {
+  color: $color-sec1 !important;
+}
+
+.fm-blue-text {
+  color: $color-com !important;
+}
+
+.fm-peach-text {
+  color: $color-sec2 !important;
+}
+
+.nav-font {
+  font-size: 1.5rem;
+}
 
 // /* Navigation*/
 //   .navbar {
@@ -36,6 +52,10 @@ $color-com: #01B8F4; // Main C color */
   body,
   .view {
     height: 100%;
+  }
+
+  .xf-hidden {
+    overflow: hidden;
   }
 
   /* Carousel*/
@@ -73,12 +93,9 @@ $color-com: #01B8F4; // Main C color */
   }
 
 
+
 // Heading and navbar
-// .intro-background {
-//   background: url("dist/img/header-background.jpg")no-repeat center center;
-//   background-size: cover;
-//   height: 100vh;
-// }
+//
 //
 // .navbar {
 //   background-color: transparent;
@@ -98,17 +115,20 @@ $color-com: #01B8F4; // Main C color */
 //   font-weight: 700;
 // }
 //
-// // Services section
+// // Our Work section
 // .wow {
 //   visibility: hidden;
 // }
-//
-// // Portfolio Section
-// .portfolio-background {
-//   background: url("dist/img/floors.jpg")no-repeat center center;
-//   background-size: cover;
-//   height: 100%;
+// #work {
+//   background-color: $color-sec2;
 // }
+//
+// // Resources Section
+.resources-background {
+  background: url("dist/img/resources-bg.jpg")no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
 //
 // // Portfolio Section
 // .contact-background {

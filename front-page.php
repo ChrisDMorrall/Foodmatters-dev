@@ -7,16 +7,16 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="view">
-          <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
+          <div class="full-bg-img flex-center mask rgba-black-light white-text">
             <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
               <li>
-                <h1 class="font-weight-bold text-uppercase">Our Approach One Lorem Ipsum</h1>
+                <h1 class="font-weight-bold text-uppercase fm-pink-text">Our Approach One Lorem Ipsum</h1>
               </li>
               <li>
-                <h4 class="fonte-weight-bold text-uppercase py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores!</h4>
+                <h4 class="fonte-weight-bold text-uppercase fm-pink-text py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores!</h4>
               </li>
               <li>
-                <a href="#" class="btn btn-lg btn-rounded peach-gradient mr-0 waves-effect waves-light">Find Out More</a>
+                <a href="#" class="btn btn-lg btn-rounded aqua-gradient mr-0 waves-effect waves-light">Find Out More</a>
               </li>
             </ul>
           </div>
@@ -24,16 +24,16 @@
       </div>
       <div class="carousel-item">
         <div class="view">
-          <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
+          <div class="full-bg-img flex-center mask rgba-black-light white-text">
             <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
               <li>
-                <h1 class="font-weight-bold text-uppercase">Our Approach Two Lorem Ipsum</h1>
+                <h1 class="font-weight-bold text-uppercase fm-peach-text">Our Approach Two Lorem Ipsum</h1>
               </li>
               <li>
-                <h4 class="fonte-weight-bold text-uppercase py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores!</h4>
+                <h4 class="fonte-weight-bold text-uppercase fm-peach-text py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores!</h4>
               </li>
               <li>
-                <a href="#" class="btn btn-lg btn-rounded peach-gradient mr-0 waves-effect waves-light">Find Out More</a>
+                <a href="#" class="btn btn-lg btn-rounded btn-pink mr-0 waves-effect waves-light">Find Out More</a>
               </li>
             </ul>
           </div>
@@ -41,16 +41,16 @@
       </div>
       <div class="carousel-item">
         <div class="view">
-          <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
+          <div class="full-bg-img flex-center mask rgba-black-light white-text">
             <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
               <li>
-                <h1 class="font-weight-bold text-uppercase">Our Approach Three Lorem Ipsum</h1>
+                <h1 class="font-weight-bold text-uppercase fm-blue-text">Our Approach Three Lorem Ipsum</h1>
               </li>
               <li>
-                <h4 class="fonte-weight-bold text-uppercase py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores!</h4>
+                <h4 class="fonte-weight-bold text-uppercase fm-blue-text py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores!</h4>
               </li>
               <li>
-                <a href="#" class="btn btn-lg btn-rounded peach-gradient mr-0 waves-effect waves-light">Find Out More</a>
+                <a href="#" class="btn btn-lg blue-gradient btn-rounded mr-0 waves-effect waves-light">Find Out More</a>
               </li>
             </ul>
           </div>
@@ -58,7 +58,7 @@
       </div>
       <div class="carousel-item">
         <div class="view">
-          <div class="full-bg-img flex-center mask rgba-indigo-light white-text">
+          <div class="full-bg-img flex-center mask rgba-black-light white-text">
             <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
               <li>
                 <h1 class="font-weight-bold text-uppercase">Our Approach Four Lorem Ipsum</h1>
@@ -85,10 +85,10 @@
 </div>
 </section>
 <!-- Intro Section -->
-<hr class="w-75 mt-5" id="work">
+<hr class="w-75 mt-5">
 <!--Our Work Section-->
-<section class="text-center my-5">
-  <div class="container">
+<section class="text-center xf-hidden" id="work">
+  <div class="container" >
     <!-- Section heading -->
     <h2 class="h1-responsive font-weight-bold text-center my-5 pt-3 wow zoomInUp slow">What We Do</h2>
     <!-- Section description -->
@@ -188,89 +188,65 @@
     <!-- Grid row -->
   </div>
 </section>
-<!--Services Section-->
-<hr class="w-75 my-5" id="portfolio">
-<!-- Portfolio Section -->
-<section class="my-5">
-  <div class=" portfolio-background jarallax" data-jarallax='{"speed": 0.2}'>
+<!--Our Work Section-->
+<hr class="w-75 my-5">
+<!-- Resources Section -->
+<section class="xf-hidden" id="resources">
+  <div class="resources-background jarallax" data-jarallax='{"speed": 0.2}'>
     <div class="full-bg-img">
-      <div class="mask peach-gradient-rgba">
+      <div class="mask aqua-gradient-rgba">
         <div class="container">
-            <h1 class="text-center h1-responsive font-weight-bold text-white py-5 wow zoomInUp slow">Portfolio</h1>
+            <h1 class="text-center h1-responsive font-weight-bold text-white py-5 wow zoomInUp slow">Resources</h1>
             <p class="text-center text-white w-responsive mx-auto mb-5 wow zoomInUp slow" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
-              <div class="row pb-4">
-                <div class="col-lg-4 my-4 px-5">
-                  <div class="card card-cascade wider wow zoomInUp slow" data-wow-delay="0.5s">
-                    <!-- Card image -->
-                    <div class="view view-cascade overlay">
-                      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg" alt="Card image cap">
-                      <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
+            <!-- Grid row -->
+            <div class="row pb-4">
+              <div class="col-lg-6 my-4 px-5">
+                <div class="card card-image wider wow zoomInUp slow" data-wow-delay="0.5s" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/report.jpg;">
+                  <!-- Content -->
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                      <div>
+                        <h3 class="card-title pt-2"><strong>Food Matters Reports</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                          optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+                          Odit sed qui, dolorum!.</p>
+                        <a href="#" class="btn peach-gradient btn-rounded">Read More</a>
+                      </div>
                     </div>
-                    <!-- Card content -->
-                    <div class="card-body card-body-cascade text-center">
-                      <!-- Title -->
-                      <h4 class="card-title"><i class="fas fa-utensils fa-xs"></i><strong> Food Matters Inside & Out</strong></h4>
-                      <!-- Subtitle -->
-                      <h5 class="blue-text pb-2"><strong>Charity Organisation</strong></h5>
-                      <!-- Text -->
-                      <p class="card-text pb-3"> Food Matters Inside and Out is a project run by the not-for-profit organisation Food Matters to promote healthy eating within the UK prison service</p>
-                      <a href="http://www.foodmattersinsideout.org/" class="btn peach-gradient btn-rounded" target="_blank">View Site</a>
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-lg-4 my-4 px-5">
-                  <div class="card card-cascade wider wow zoomInUp slow" data-wow-delay="0.5s">
-                    <div class="view view-cascade overlay">
-                      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg" alt="Card image cap">
-                      <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
-                    <div class="card-body card-body-cascade text-center">
-                      <h4 class="card-title"><i class="fas fa-utensils fa-xs"></i><strong> Food Matters Inside & Out</strong></h4>
-                      <h5 class="blue-text pb-2"><strong>Charity Organisation</strong></h5>
-                      <p class="card-text pb-3"> Food Matters Inside and Out is a project run by the not-for-profit organisation Food Matters to promote healthy eating within the UK prison service</p>
-                      <a href="http://www.foodmattersinsideout.org/" class="btn peach-gradient btn-rounded" target="_blank">View Site</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 my-4 3 px-5">
-                  <div class="card card-cascade wider wow zoomInUp slow" data-wow-delay="0.5s">
-                    <div class="view view-cascade overlay">
-                      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg.jpg" alt="Card image cap">
-                      <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                      </a>
-                    </div>
-                    <div class="card-body card-body-cascade text-center">
-                      <h4 class="card-title"><i class="fas fa-utensils fa-xs"></i><strong> Food Matters Inside & Out</strong></h4>
-                      <h5 class="blue-text pb-2"><strong>Charity Organisation</strong></h5>
-                      <p class="card-text pb-3"> Food Matters Inside and Out is a project run by the not-for-profit organisation Food Matters to promote healthy eating within the UK prison service</p>
-                      <a href="http://www.foodmattersinsideout.org/" class="btn peach-gradient btn-rounded" target="_blank">View Site</a>
-                    </div>
-                  </div>
                 </div>
               </div>
+              <div class="col-lg-6 my-4 px-5">
+                <div class="card card-image wider wow zoomInUp slow" data-wow-delay="0.5s" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/toolkit.jpg;">
+                  <!-- Content -->
+                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                      <div>
+                        <h3 class="card-title pt-2"><strong>Food Matters Toolkits</strong></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                          optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+                          Odit sed qui, dolorum!.</p>
+                        <a href="#" class="btn peach-gradient btn-rounded">Read More</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- Grid row -->
 
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Portfolio Section -->
+<!-- Resources Section -->
 
 <hr class="w-75 mt-5" id="testimonials">
 
-<!--Testimonial Section-->
+<!--About Us Section-->
 <section class="text-center my-5">
   <div class="container">
     <!-- Section heading -->
-    <h2 class="h1-responsive font-weight-bold text-center my-5 pt-3 wow zoomInUp slow">Testimonials</h2>
+    <h2 class="h1-responsive font-weight-bold text-center my-5 pt-3 wow zoomInUp slow">About Us</h2>
     <!-- Section description -->
-    <p class="text-center w-responsive mx-auto mb-5 wow zoomInUp slow" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+    <p class="text-center w-responsive mx-auto mb-5 wow zoomInUp slow" data-wow-delay="0.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde neque numquam magni nemo doloribus alias quae amet, itaque iusto quis veniam deserunt maiores quia dignissimos soluta ipsum praesentium tempore aliquid totam dolore fugiat molestiae? Voluptas sapiente iusto sit ratione velit magni laboriosam quaerat libero vero enim eaque dicta, culpa architecto modi impedit veniam quo mollitia similique odit, obcaecati quibusdam nam! Obcaecati veritatis sit impedit quos expedita ex velit quo! Ut voluptatem, beatae nesciunt quasi quia ea quis nisi minus impedit in quaerat at atque error saepe sit hic tempora adipisci ipsum ratione. Id, ipsum itaque deserunt quod, eos necessitatibus natus.</p>
 
     <!-- Grid row -->
     <div class="row">

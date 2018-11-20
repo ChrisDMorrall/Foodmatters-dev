@@ -1,16 +1,31 @@
 /*
-Theme Name: MDB Template
+Theme Name: Food Matters Theme
 Theme URI:
-Description: WP Template theme developed on Material Design for Bootstrap 4
-Version: 4.5.5
+Description: Theme developed on Material Design for Bootstrap 4
+Version: 1.0
 Author: Chris Morrall
 Author URI: https://chrismorrall.me
 */
+.fm-pink-text {
+  color: #ff72a0 !important; }
+
+.fm-blue-text {
+  color: #01B8F4 !important; }
+
+.fm-peach-text {
+  color: #FFCC59 !important; }
+
+.nav-font {
+  font-size: 1.5rem; }
+
 /* Necessary for full page carousel*/
 html,
 body,
 .view {
   height: 100%; }
+
+.xf-hidden {
+  overflow: hidden; }
 
 /* Carousel*/
 .carousel,
@@ -55,3 +70,9 @@ body,
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: #01B8F4; } }
+
+.resources-background {
+  background: url("dist/img/resources-bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%; }
