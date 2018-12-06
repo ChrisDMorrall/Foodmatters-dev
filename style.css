@@ -76,3 +76,16 @@ body,
   -webkit-background-size: cover;
   background-size: cover;
   height: 100%; }
+
+.aboutus-background {
+  background: url("dist/img/aboutus.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  min-height: 250px; }
+
+.footer-top-bg {
+  background-color: #01B8F4; }
+
+.footer-btm-bg {
+  background-color: #FFCC59; }

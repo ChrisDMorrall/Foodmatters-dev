@@ -1,4 +1,109 @@
+<!-- Footer -->
+<footer class="xf-hidden page-footer font-small footer-top-bg pt-2">
+
+    <!-- Footer Links -->
+    <div class="container text-center fm-peach-text text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <a class="fm-peach-text" href="#!">Vacancies</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a class="fm-peach-text" href="#!">Privacy Policy</a>
+              </p>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-6 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+          <!-- Contact details -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <i class="fa fa-home mr-3"></i> Food Matters, Brighthelm Centre, North Road, Brighton, BN1 1YD</p>
+            </li>
+            <li>
+              <p>
+                <i class="fa fa-envelope mr-3"></i> info@foodmatters.org</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-building mr-3"></i> Charity number: 11780789</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-mobile-alt mr-3"></i>  +44 (0)1273 431707</p>
+            </li>
+
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 text-center mx-auto my-4">
+
+          <!-- Social buttons -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+          <!-- Facebook -->
+          <a type="button" class="btn-floating btn-fb">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- Twitter -->
+          <a type="button" class="btn-floating btn-tw">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center footer-btm-bg py-3">&copy <?php echo date("Y"); ?> Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Food Matters</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
 <?php wp_footer(); ?>
+
 <script>
 wow = new WOW({
     boxClass: 'wow', // default
@@ -8,63 +113,6 @@ wow = new WOW({
     live: true // default
 })
 wow.init();
-
-// function validateForm() {
-//     // var name =  document.getElementById('name').value;
-//     // if (name == "") {
-//     //     document.getElementById('status').innerHTML = "Name cannot be empty";
-//     //     return false;
-//     // }
-//     // var email =  document.getElementById('email').value;
-//     // if (email == "") {
-//     //     document.getElementById('status').innerHTML = "Email cannot be empty";
-//     //     return false;
-//     // } else {
-//     //     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-//     //     if(!re.test(email)){
-//     //         document.getElementById('status').innerHTML = "Email format invalid";
-//     //         return false;
-//     //     }
-//     // }
-//     // var subject =  document.getElementById('subject').value;
-//     // if (subject == "") {
-//     //     document.getElementById('status').innerHTML = "Subject cannot be empty";
-//     //     return false;
-//     // }
-//     // var message =  document.getElementById('message').value;
-//     // if (message == "") {
-//     //     document.getElementById('status').innerHTML = "Message cannot be empty";
-//     //     return false;
-//     // }
-//     document.getElementById('status').innerHTML = "Sending...";
-//       formData = {
-//           'name'     : $('input[name=name]').val(),
-//           'email'    : $('input[name=email]').val(),
-//           'subject'  : $('input[name=subject]').val(),
-//           'message'  : $('textarea[name=message]').val()
-//       };
-//
-//
-//      $.ajax({
-//       url : "<?php echo get_template_directory_uri(); ?>/mail.php",
-//       type: "POST",
-//       data : formData,
-//       success: function(data, textStatus, jqXHR)
-//       {
-//
-//           $('#status').text(data.message);
-//           if (data.code) //If mail was sent successfully, reset the form.
-//           alert('Message sent');
-//           $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-//       },
-//       error: function (jqXHR, textStatus, errorThrown)
-//       {
-//           $('#status').text(jqXHR);
-//           alert('Message failed');
-//       }
-//   });
-//
-// }
 </script>
 </body>
 </html>

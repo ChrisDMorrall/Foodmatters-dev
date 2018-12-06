@@ -38,9 +38,9 @@
         <li class="nav-item">
           <a class="nav-link fm-peach-text" href="#about">About Us</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link fm-peach-text" href="#">Vacancies</a>
-        </li>
+        </li> -->
       </ul>
       <ul class="nav navbar-nav ml-lg-auto w-25 justify-content-end d-none d-lg-block">
         <li class="nav-item fm-peach-text">
