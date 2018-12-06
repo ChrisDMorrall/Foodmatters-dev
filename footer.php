@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="xf-hidden page-footer font-small footer-top-bg pt-2">
+<footer class="xf-hidden page-footer font-small footer-top-bg">
 
     <!-- Footer Links -->
     <div class="container text-center fm-peach-text text-md-left">
@@ -17,8 +17,6 @@
         <div class="col-md-3 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
-
           <ul class="list-unstyled">
             <li>
               <p>
@@ -32,6 +30,7 @@
             </li>
           </ul>
 
+
         </div>
         <!-- Grid column -->
 
@@ -41,25 +40,24 @@
         <div class="col-md-6 col-lg-6 mx-auto my-md-4 my-0 mt-4 mb-1">
 
           <!-- Contact details -->
-          <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
 
           <ul class="list-unstyled">
             <li>
               <p>
                 <i class="fa fa-home mr-3"></i> Food Matters, Brighthelm Centre, North Road, Brighton, BN1 1YD</p>
             </li>
-            <li>
+            <!-- <li>
               <p>
                 <i class="fa fa-envelope mr-3"></i> info@foodmatters.org</p>
-            </li>
+            </li> -->
             <li>
               <p>
                 <i class="fas fa-building mr-3"></i> Charity number: 11780789</p>
             </li>
-            <li>
+            <!-- <li>
               <p>
                 <i class="fas fa-mobile-alt mr-3"></i>  +44 (0)1273 431707</p>
-            </li>
+            </li> -->
 
           </ul>
 
@@ -72,7 +70,6 @@
         <div class="col-md-3 col-lg-2 text-center mx-auto my-4">
 
           <!-- Social buttons -->
-          <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
 
           <!-- Facebook -->
           <a type="button" class="btn-floating btn-fb">
@@ -94,7 +91,7 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center footer-btm-bg py-3">&copy <?php echo date("Y"); ?> Copyright:
+    <div class="footer-copyright text-center py-3">&copy <?php echo date("Y"); ?> Copyright:
       <a href="https://mdbootstrap.com/education/bootstrap/"> Food Matters</a>
     </div>
     <!-- Copyright -->

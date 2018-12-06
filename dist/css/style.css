@@ -18,7 +18,21 @@ Author URI: https://chrismorrall.me
 .nav-font {
   font-size: 1.5rem; }
 
-/* Necessary for full page carousel*/
+.fm-logo {
+  height: 150px;
+  position: absolute;
+  left: 40px; }
+
+.fm-logo-resize {
+  height: 50px;
+  top: 6px;
+  left: 10px; }
+
+.navbar {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.fm
 html,
 body,
 .view {

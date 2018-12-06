@@ -19,7 +19,7 @@
 <header>
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <a class="navbar-brand d-flex w-25 mr-auto" href="#"><img src="<?php echo get_template_directory_uri(); ?>/dist/img/fm-logo-60px.bmp" alt=""></a>
+    <a class="navbar-brand d-flex w-25 mr-auto" href="#"><img class="fm-logo" src="<?php echo get_template_directory_uri(); ?>/dist/img/fm-logo-250px-rotated5.bmp" alt="Food Matters Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,8 +44,10 @@
       </ul>
       <ul class="nav navbar-nav ml-lg-auto w-25 justify-content-end d-none d-lg-block">
         <li class="nav-item fm-peach-text">
-            <i class="fas fa-mobile-alt fa-lg" aria-hidden="true"></i><span> +44 (0)1273 431707</span>
-            <i class="fas fa-envelope-square fa-lg ml-2" aria-hidden="true"></i><span> info@foodmatters.org</span>
+            <i class="fas fa-envelope-square" aria-hidden="true"></i><span> info@foodmatters.org</span>
+        </li>
+        <li class="nav-item fm-peach-text">
+          <i class="fas fa-mobile-alt" aria-hidden="true"></i><span> +44 (0)1273 431707</span>
         </li>
       </ul>
     </div>

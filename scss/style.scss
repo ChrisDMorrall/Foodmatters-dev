@@ -24,11 +24,32 @@ $color-com: #01B8F4; // Main C color */
   color: $color-sec2 !important;
 }
 
+
+
+// /* Navigation*/
 .nav-font {
   font-size: 1.5rem;
 }
 
-// /* Navigation*/
+.fm-logo {
+  height: 150px;
+  position: absolute;
+  left: 40px;
+}
+
+.fm-logo-resize {
+  height: 50px;
+  top: 6px;
+  left: 10px;
+
+}
+
+.navbar {
+  box-shadow: none;
+}
+
+.fm
+
 //   .navbar {
 //     background-color: transparent;
 //   }

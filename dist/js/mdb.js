@@ -14854,13 +14854,16 @@ var WOW;
       if ($navbar.offset().top > SCROLLING_NAVBAR_OFFSET_TOP) {
 
         $('.scrolling-navbar').addClass('top-nav-collapse');
+        $('.fm-logo').addClass('fm-logo-resize');
       } else {
 
         $('.scrolling-navbar').removeClass('top-nav-collapse');
+        $('.fm-logo').removeClass('fm-logo-resize');
       }
     }
   });
 })(jQuery);
+
 /*!
  * Waves v0.7.6
  * http://fian.my.id/Waves
