@@ -308,7 +308,7 @@
 </section>
 <!-- Resources Section -->
 
-<hr class="w-75 mt-5" id="testimonials">
+<hr class="w-75 mt-5" id="about">
 
 <!--About Us Section-->
 <section class="xf-hidden text-center">
@@ -323,8 +323,164 @@
           <a href="#" class="btn btn-pink btn-rounded mb-5">Read More</a>
 
           <!-- Grid row -->
+          <div class="row pb-4">
+            <!-- Card deck -->
+            <div class="card-deck card-deck-width">
+            <!-- Card 1 -->
+            <div class="card testimonial-card">
 
-          <!-- Grid row -->
+              <!-- Background color -->
+              <div class="card-up team-card"></div>
+
+              <!-- Avatar -->
+              <div class="avatar mx-auto white">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+              </div>
+
+              <!-- Content -->
+              <div class="card-body">
+                <!-- Name -->
+                <h4 class="card-title">Victoria Williams</h4>
+                <!-- Subtitle -->
+                <h5 class="blue-text pb-2"><strong>Director</strong></h5>
+                <!-- Email  -->
+                <p>victoria@foodmatters.org</p>
+              </div>
+
+            </div>
+            <!-- Card 1 -->
+            <!-- Card 2 -->
+              <div class="card testimonial-card">
+
+                <!-- Background color -->
+                <div class="card-up team-card"></div>
+
+                <!-- Avatar -->
+                <div class="avatar mx-auto white">
+                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+                </div>
+
+                <!-- Content -->
+                <div class="card-body">
+                  <!-- Name -->
+                  <h4 class="card-title">Ben Messer</h4>
+                  <!-- Subtitle -->
+                  <h5 class="blue-text pb-2"><strong>Community Engagement & Participation Lead</strong></h5>
+                  <!-- Email  -->
+                  <p>ben@foodmatters.org</p>
+                </div>
+
+              </div>
+          <!-- Card 2 -->
+          <!-- Card 3 -->
+            <div class="card testimonial-card">
+
+              <!-- Background color -->
+              <div class="card-up team-card"></div>
+
+              <!-- Avatar -->
+              <div class="avatar mx-auto white">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+              </div>
+
+              <!-- Content -->
+              <div class="card-body">
+                <!-- Name -->
+                <h4 class="card-title">Louise Griffin</h4>
+                <!-- Subtitle -->
+                <h5 class="blue-text pb-2"><strong>Project Administrator</strong></h5>
+                <!-- Email  -->
+                <p>louise@foodmatters.org</p>
+              </div>
+
+            </div>
+          <!-- Card 3 -->
+          </div>
+          <!-- Card deck -->
+        </div>
+        <!-- Grid row -->
+        <div class="row pb-4">
+          <div class="card-deck card-deck-width">
+            <!-- Card 4 -->
+              <div class="card testimonial-card">
+
+                <!-- Background color -->
+                <div class="card-up team-card"></div>
+
+                <!-- Avatar -->
+                <div class="avatar mx-auto white">
+                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+                </div>
+
+                <!-- Content -->
+                <div class="card-body">
+                  <!-- Name -->
+                  <h4 class="card-title">Helen Sandwell</h4>
+                  <!-- Subtitle -->
+                  <h5 class="blue-text pb-2"><strong>Nutritionist</strong></h5>
+                  <!-- Email  -->
+                  <p>helen@foodmatters.org</p>
+                </div>
+
+              </div>
+            <!-- Card 4 -->
+            <!-- Card 5 -->
+              <div class="card testimonial-card">
+
+                <!-- Background color -->
+                <div class="card-up team-card"></div>
+
+                <!-- Avatar -->
+                <div class="avatar mx-auto white">
+                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+                </div>
+
+                <!-- Content -->
+                <div class="card-body">
+                  <!-- Name -->
+                  <h4 class="card-title">Sarah Davies</h4>
+                  <!-- Subtitle -->
+                  <h5 class="blue-text pb-2"><strong>Sustainable Food Cities Development Lead</strong></h5>
+                  <!-- Email  -->
+                  <p>sarahd@foodmatters.org</p>
+                </div>
+
+              </div>
+            <!-- Card 5 -->
+            <!-- Card 6 -->
+              <div class="card testimonial-card">
+
+                <!-- Background color -->
+                <div class="card-up team-card"></div>
+
+                <!-- Avatar -->
+                <div class="avatar mx-auto white">
+                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
+                </div>
+
+                <!-- Content -->
+                <div class="card-body">
+                  <!-- Name -->
+                  <h4 class="card-title">Jocelyn Read</h4>
+                  <!-- Subtitle -->
+                  <h5 class="blue-text pb-2"><strong>Cookery Trainer</strong></h5>
+                  <!-- Email  -->
+                  <p>jocelyn@foodmatters.org</p>
+                </div>
+              </div>
+            <!-- Card 6 -->
+          </div>
+        </div>
+        <!-- Board Members -->
+        <h2 class="h2-responsive font-weight-bold text-center text-white my-5 pt-3">Our Board</h2>
+        <!-- Section description -->
+        <ul class="list-unstyled text-white pb-3">
+          <li><h5>Colin Havard - Independent Community Development Consultant</h5><p>Project management, staff management, financial and funding expertise, organisational issues.</p></li>
+          <li><h5>Tim Marsh - Independent Public Health Policy consultant</h5><p>Obesity, Food Poverty and Agricultural policy impact on Public Health.</p></li>
+          <li><h5>Kath Dalmeny - Sustain, the alliance for better food and farming</h5><p>Understanding of sustainability issues, environment and food policy.  Project management, media and communications expertise.</p></li>
+          <li><h5>Charlie Powell - Federation of City Farms & Community Gardens</h5><p>Campaigning development and strategy expertise, knowledge about food policy, and animal welfare and humane and sustainable agriculture.</p></li>
+          <li><h5>Lindy Sharpe - Writer and Researcher</h5><p>Expertise in the policy and governance of the food supply, sustainability (especially the social dimensions of sustainability), the food industry.</p></li>
+        </ul>
         </div>
       </div>
     </div>

@@ -158,13 +158,20 @@ $color-com: #01B8F4; // Main C color */
 .aboutus-background {
   background: url("dist/img/aboutus.jpg")no-repeat center center;
   background-size: cover;
-  height: 100%;
-  min-height: 250px;
+}
+
+.card-deck-width {
+  width: 1140px;
 }
 
 
+// Footer Section
 .footer-top-bg {
   background-color: $color-com;
+}
+
+.team-card {
+  background-color: $color-pr;
 }
 
 .footer-btm-bg {
