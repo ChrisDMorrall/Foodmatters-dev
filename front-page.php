@@ -3,9 +3,10 @@
 
 <!-- Intro Section -->
 <section id="home">
+  <!-- Commented out sections remove carousel slides to only have 1 slide as the section content. Remove comments for carousel items to turn back into a carousel. N.B. Carousel Background images are also commented out in style.scss  -->
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="8000">
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <!-- <div class="carousel-item active">
         <div class="view">
           <div class="full-bg-img flex-center mask rgba-black-light white-text">
             <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
@@ -21,25 +22,28 @@
             </ul>
           </div>
         </div>
-      </div>
-      <div class="carousel-item">
+      </div> -->
+      <div class="carousel-item active">
         <div class="view">
           <div class="full-bg-img flex-center mask rgba-black-light white-text">
             <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
               <li>
-                <h1 class="font-weight-bold text-uppercase fm-peach-text">Our Approach Two Lorem Ipsum</h1>
+                <h1 class="font-weight-bold text-uppercase fm-peach-text">Our Approach</h1>
               </li>
               <li>
-                <h4 class="fonte-weight-bold text-uppercase fm-peach-text py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, asperiores!</h4>
+                <h4 class="text-uppercase fm-peach-text py-4"><?php
+                      $post_id = 6;
+                      echo get_post_meta($post_id, 'subtitle', true);
+                ?></h4>
               </li>
               <li>
-                <a href="#" class="btn btn-lg btn-rounded btn-pink mr-0 waves-effect waves-light">Find Out More</a>
+                <a href="<?php echo site_url('/our-approach');?>" class="btn btn-lg btn-rounded btn-pink mr-0 waves-effect waves-light">Find Out More</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <div class="view">
           <div class="full-bg-img flex-center mask rgba-black-light white-text">
             <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
@@ -55,8 +59,8 @@
             </ul>
           </div>
         </div>
-      </div>
-      <div class="carousel-item">
+      </div> -->
+      <!-- <div class="carousel-item">
         <div class="view">
           <div class="full-bg-img flex-center mask rgba-black-light white-text">
             <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
@@ -72,16 +76,17 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <!-- Commented Out Carousel Controls - remove comments to turn front page Our Approach section into a carousel -->
+    <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
-    </a>
+    </a> -->
 </div>
 </section>
 <!-- Intro Section -->
@@ -96,101 +101,33 @@
 
     <!-- Grid row -->
     <div class="row pb-4">
-      <div class="col-lg-6 my-4 px-5">
-        <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg;">
-          <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-              <div>
-                <h3 class="card-title fm-peach-text pt-2"><strong>What We Do Tittle One</strong></h3>
-                <p class="fm-peach-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-              </div>
-            </div>
-        </div>
-      </div>
-      <div class="col-lg-6 my-4 px-5">
-        <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg;">
-          <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-              <div>
-                <h3 class="card-title fm-peach-text pt-2"><strong>What We Do Tittle Two</strong></h3>
-                <p class="fm-peach-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-    <!-- Grid row -->
-    <!-- Grid row -->
-    <div class="row pb-4">
-      <div class="col-lg-6 my-4 3 px-5">
-        <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg;">
-          <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-              <div>
-                <h3 class="card-title fm-peach-text pt-2"><strong>What We Do Tittle Three</strong></h3>
-                <p class="fm-peach-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-              </div>
-            </div>
-        </div>
-      </div>
+      <?php
+        $homepageWork = new WP_Query(array(
+          'posts_per_page' => 6,
+          'post_type' => 'work',
+          'order' => 'ASC'
+        ));
 
-      <div class="col-lg-6 my-4 px-5">
-        <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg;">
-          <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-              <div>
-                <h3 class="card-title pt-2 fm-peach-text"><strong>What We Do Tittle Four</strong></h3>
-                <p class="fm-peach-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                <a href="#" class="btn btn-pink btn-rounded">Read More</a>
+        while($homepageWork->have_posts()) {
+          $homepageWork->the_post(); ?>
+            <div class="col-lg-6 my-4 px-5">
+              <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg;">
+                <!-- Content -->
+                  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div class="content-height">
+                      <h3 class="card-title fm-peach-text pt-2"><strong><?php the_title(); ?></strong></h3>
+                      <p class="fm-peach-text"><?php the_field('our_work_description'); ?></p>
+                      <a href="<?php the_permalink(); ?>" class="btn btn-pink btn-rounded btn-bottom">Read More</a>
+                    </div>
+                  </div>
               </div>
             </div>
-        </div>
-      </div>
+          <?php
+        }
+      ?>
     </div>
     <!-- Grid row -->
-    <!-- Grid row -->
-    <div class="row pb-4">
-      <div class="col-lg-6 my-4 px-5">
-        <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg;">
-          <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-              <div>
-                <h3 class="card-title pt-2 fm-peach-text"><strong>What We Do Tittle Five</strong></h3>
-                <p class="fm-peach-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-              </div>
-            </div>
-        </div>
-      </div>
-      <div class="col-lg-6 my-4 3 px-5">
-        <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg;">
-          <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-              <div>
-                <h3 class="card-title pt-2 fm-peach-text"><strong>What We Do Tittle Six</strong></h3>
-                <p class="fm-peach-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-    <!-- Grid row -->
+
   </div>
 </section>
 <!--Our Work Section-->
@@ -326,149 +263,84 @@
           <div class="row pb-4">
             <!-- Card deck -->
             <div class="card-deck card-deck-width">
-            <!-- Card 1 -->
-            <div class="card testimonial-card">
 
-              <!-- Background color -->
-              <div class="card-up team-card"></div>
+            <?php
+              $homepageTeam = new WP_Query(array(
+                'posts_per_page' => 3,
+                'post_type' => 'team',
+                'order' => 'ASC'
+              ));
 
-              <!-- Avatar -->
-              <div class="avatar mx-auto white">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
-              </div>
+              while($homepageTeam->have_posts()) {
+                $homepageTeam->the_post(); ?>
 
-              <!-- Content -->
-              <div class="card-body">
-                <!-- Name -->
-                <h4 class="card-title">Victoria Williams</h4>
-                <!-- Subtitle -->
-                <h5 class="blue-text pb-2"><strong>Director</strong></h5>
-                <!-- Email  -->
-                <p>victoria@foodmatters.org</p>
-              </div>
 
-            </div>
-            <!-- Card 1 -->
-            <!-- Card 2 -->
+              <!-- Card -->
               <div class="card testimonial-card">
 
                 <!-- Background color -->
                 <div class="card-up team-card"></div>
 
-                <!-- Avatar -->
-                <div class="avatar mx-auto white">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
-                </div>
+                  <!-- Avatar -->
+                  <div class="avatar mx-auto white">
+                    <img src="<?php the_post_thumbnail_url('staffPortrait'); ?>" class="rounded-circle" alt="woman avatar">
+                  </div>
 
-                <!-- Content -->
-                <div class="card-body">
-                  <!-- Name -->
-                  <h4 class="card-title">Ben Messer</h4>
-                  <!-- Subtitle -->
-                  <h5 class="blue-text pb-2"><strong>Community Engagement & Participation Lead</strong></h5>
-                  <!-- Email  -->
-                  <p>ben@foodmatters.org</p>
-                </div>
+                  <!-- Content -->
+                  <div class="card-body">
+                    <!-- Name -->
+                    <h4 class="card-title"><?php the_title(); ?></h4>
+                    <!-- Subtitle -->
+                    <h5 class="blue-text pb-2"><strong><?php the_field('title'); ?></strong></h5>
+                    <!-- Email  -->
+                    <p><?php the_field('email') ?></p>
+                  </div>
 
               </div>
-          <!-- Card 2 -->
-          <!-- Card 3 -->
-            <div class="card testimonial-card">
-
-              <!-- Background color -->
-              <div class="card-up team-card"></div>
-
-              <!-- Avatar -->
-              <div class="avatar mx-auto white">
-                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
-              </div>
-
-              <!-- Content -->
-              <div class="card-body">
-                <!-- Name -->
-                <h4 class="card-title">Louise Griffin</h4>
-                <!-- Subtitle -->
-                <h5 class="blue-text pb-2"><strong>Project Administrator</strong></h5>
-                <!-- Email  -->
-                <p>louise@foodmatters.org</p>
-              </div>
-
+              <!-- Card -->
+              <?php } ?>
             </div>
-          <!-- Card 3 -->
+            <!-- Card deck -->
           </div>
-          <!-- Card deck -->
-        </div>
-        <!-- Grid row -->
+          <!-- Grid row -->
         <div class="row pb-4">
           <div class="card-deck card-deck-width">
-            <!-- Card 4 -->
+            <?php
+              $homepageTeam = new WP_Query(array(
+                'posts_per_page' => 3,
+                'offset' => 3,
+                'post_type' => 'team',
+                'order' => 'ASC'
+              ));
+
+              while($homepageTeam->have_posts()) {
+                $homepageTeam->the_post(); ?>
+
+
+              <!-- Card -->
               <div class="card testimonial-card">
 
                 <!-- Background color -->
                 <div class="card-up team-card"></div>
 
-                <!-- Avatar -->
-                <div class="avatar mx-auto white">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
-                </div>
+                  <!-- Avatar -->
+                  <div class="avatar mx-auto white">
+                    <img src="<?php the_post_thumbnail_url('staffPortrait'); ?>" class="rounded-circle" alt="woman avatar">
+                  </div>
 
-                <!-- Content -->
-                <div class="card-body">
-                  <!-- Name -->
-                  <h4 class="card-title">Helen Sandwell</h4>
-                  <!-- Subtitle -->
-                  <h5 class="blue-text pb-2"><strong>Nutritionist</strong></h5>
-                  <!-- Email  -->
-                  <p>helen@foodmatters.org</p>
-                </div>
-
-              </div>
-            <!-- Card 4 -->
-            <!-- Card 5 -->
-              <div class="card testimonial-card">
-
-                <!-- Background color -->
-                <div class="card-up team-card"></div>
-
-                <!-- Avatar -->
-                <div class="avatar mx-auto white">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
-                </div>
-
-                <!-- Content -->
-                <div class="card-body">
-                  <!-- Name -->
-                  <h4 class="card-title">Sarah Davies</h4>
-                  <!-- Subtitle -->
-                  <h5 class="blue-text pb-2"><strong>Sustainable Food Cities Development Lead</strong></h5>
-                  <!-- Email  -->
-                  <p>sarahd@foodmatters.org</p>
-                </div>
+                  <!-- Content -->
+                  <div class="card-body">
+                    <!-- Name -->
+                    <h4 class="card-title"><?php the_title(); ?></h4>
+                    <!-- Subtitle -->
+                    <h5 class="blue-text pb-2"><strong><?php the_field('title'); ?></strong></h5>
+                    <!-- Email  -->
+                    <p><?php the_field('email') ?></p>
+                  </div>
 
               </div>
-            <!-- Card 5 -->
-            <!-- Card 6 -->
-              <div class="card testimonial-card">
-
-                <!-- Background color -->
-                <div class="card-up team-card"></div>
-
-                <!-- Avatar -->
-                <div class="avatar mx-auto white">
-                  <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" alt="woman avatar">
-                </div>
-
-                <!-- Content -->
-                <div class="card-body">
-                  <!-- Name -->
-                  <h4 class="card-title">Jocelyn Read</h4>
-                  <!-- Subtitle -->
-                  <h5 class="blue-text pb-2"><strong>Cookery Trainer</strong></h5>
-                  <!-- Email  -->
-                  <p>jocelyn@foodmatters.org</p>
-                </div>
-              </div>
-            <!-- Card 6 -->
+              <!-- Card -->
+              <?php } ?>
           </div>
         </div>
         <!-- Board Members -->

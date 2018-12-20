@@ -16,6 +16,7 @@ while(have_posts()) {
           <!--Grid column-->
           <div class="col-md-12 text-white">
             <h1 class="display-4 font-weight-bold mb-0 mt-md-5 mt-5 py-md-5 py-5 text-center"><?php the_title(); ?></h1>
+            <h2 class="font-weight-bold"><?php the_field('subtitle'); ?></h2>
             <div class="generic-content">
               <?php the_content(); ?>
             </div>

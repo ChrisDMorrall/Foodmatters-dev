@@ -19,8 +19,8 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_scripts' );
 
 function fm_features() {
   add_theme_support('title-tag');
+  add_theme_support('post-thumbnails');
+  add_image_size('staffPortrait', 480, 720, true);
 }
 
 add_action('after_setup_theme', 'fm_features');
-
-?>

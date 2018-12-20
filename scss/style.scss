@@ -75,29 +75,29 @@ $color-com: #01B8F4; // Main C color */
     height: 100vh;
   }
   .carousel-item:nth-child(1) {
-    background-image: url("dist/img/header-bg-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-  .carousel-item:nth-child(2) {
     background-image: url("dist/img/header-bg-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
-  .carousel-item:nth-child(3) {
-    background-image: url("dist/img/header-bg-3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-  .carousel-item:nth-child(4) {
-    background-image: url("dist/img/header-bg-4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
+  // .carousel-item:nth-child(2) {
+  //   background-image: url("dist/img/header-bg-1.jpg");
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: center center;
+  // }
+  // .carousel-item:nth-child(3) {
+  //   background-image: url("dist/img/header-bg-3.jpg");
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: center center;
+  // }
+  // .carousel-item:nth-child(4) {
+  //   background-image: url("dist/img/header-bg-4.jpg");
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: center center;
+  // }
 
 .top-nav-collapse {
   background-color: $color-com;
@@ -110,6 +110,18 @@ $color-com: #01B8F4; // Main C color */
 
 
 //  ***** Front Page CSS *****
+
+// Our Work Section--
+
+.content-height {
+  min-height: 256px;
+}
+
+.btn-bottom {
+  position: absolute;
+  bottom: 40px;
+  left: 165px;
+}
 
 // Resources Section
 .resources-background {
