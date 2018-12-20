@@ -6,6 +6,9 @@ Version: 1.0
 Author: Chris Morrall
 Author URI: https://chrismorrall.me
 */
+
+// ***** Generic CSS *****
+
 // Colour Palette
 $color-pr: #62883d; // Main Pr color */
 $color-sec1: #ff72a0; // Main S color (1) */
@@ -26,7 +29,8 @@ $color-com: #01B8F4; // Main C color */
 
 
 
-// /* Navigation*/
+// ***** Header *****
+
 .nav-font {
   font-size: 1.5rem;
 }
@@ -49,24 +53,6 @@ $color-com: #01B8F4; // Main C color */
 }
 
 .fm
-
-//   .navbar {
-//     background-color: transparent;
-//   }
-//   .scrolling-navbar {
-//     transition: background .5s ease-in-out, padding .5s ease-in-out;
-//   }
-//   .top-nav-collapse {
-//     background-color: #667490;
-//   }
-//   footer.page-footer {
-//     background-color: #667490;
-//   }
-//   @media only screen and (max-width: 768px) {
-//     .navbar {
-//       background-color: #667490;
-//     }
-//   }
 
   /* Necessary for full page carousel*/
   html,
@@ -113,15 +99,6 @@ $color-com: #01B8F4; // Main C color */
     background-position: center center;
   }
 
-
-
-// Heading and navbar
-//
-//
-// .navbar {
-//   background-color: transparent;
-// }
-//
 .top-nav-collapse {
   background-color: $color-com;
 }
@@ -132,21 +109,9 @@ $color-com: #01B8F4; // Main C color */
 }
 
 
+//  ***** Front Page CSS *****
 
-// .hero-text-1 {
-//   color: #fff;
-//   font-weight: 700;
-// }
-//
-// // Our Work section
-// .wow {
-//   visibility: hidden;
-// }
-// #work {
-//   background-color: $color-sec2;
-// }
-//
-// // Resources Section
+// Resources Section
 .resources-background {
   background: url("dist/img/resources-bg.jpg")no-repeat center center;
   background-size: cover;
@@ -165,7 +130,27 @@ $color-com: #01B8F4; // Main C color */
 }
 
 
-// Footer Section
+// ***** Our Approach Page CSS *****
+
+.our-approach-bg {
+    background: url("dist/img/our-approach-bg.jpg")no-repeat center center;
+    background-size: cover;
+    min-height: 800px;
+}
+
+@media only screen and (max-width: 1040px) {
+  .our-approach-bg {
+    min-height: 1000px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .our-approach-bg {
+    min-height: 1400px;
+  }
+}
+
+// ***** Footer CSS *****
 .footer-top-bg {
   background-color: $color-com;
 }

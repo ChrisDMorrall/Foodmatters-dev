@@ -17,4 +17,10 @@ function theme_enqueue_scripts() {
         }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_scripts' );
 
+function fm_features() {
+  add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'fm_features');
+
 ?>

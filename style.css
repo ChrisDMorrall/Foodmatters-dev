@@ -99,6 +99,20 @@ body,
 .card-deck-width {
   width: 1140px; }
 
+.our-approach-bg {
+  background: url("dist/img/our-approach-bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 800px; }
+
+@media only screen and (max-width: 1040px) {
+  .our-approach-bg {
+    min-height: 1000px; } }
+
+@media only screen and (max-width: 768px) {
+  .our-approach-bg {
+    min-height: 1400px; } }
+
 .footer-top-bg {
   background-color: #01B8F4; }
 
