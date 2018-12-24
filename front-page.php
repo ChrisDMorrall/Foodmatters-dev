@@ -109,9 +109,13 @@
         ));
 
         while($homepageWork->have_posts()) {
-          $homepageWork->the_post(); ?>
+          $homepageWork->the_post();
+          $thumb_id = get_post_thumbnail_id();
+          $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'medium', true);
+          $thumb_url = $thumb_url_array[0];
+           ?>
             <div class="col-lg-6 my-4 px-5">
-              <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/work-img-1.jpg;">
+              <div class="card card-image wider" style="background-image: url(<?php echo $thumb_url; ?>)">
                 <!-- Content -->
                   <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
                     <div class="content-height">
@@ -283,7 +287,7 @@
 
                   <!-- Avatar -->
                   <div class="avatar mx-auto white">
-                    <img src="<?php the_post_thumbnail_url('staffPortrait'); ?>" class="rounded-circle" alt="woman avatar">
+                    <img src="<?php the_post_thumbnail_url('staffPortrait'); ?>" class="rounded-circle" alt="staff potrait">
                   </div>
 
                   <!-- Content -->
@@ -293,7 +297,11 @@
                     <!-- Subtitle -->
                     <h5 class="blue-text pb-2"><strong><?php the_field('title'); ?></strong></h5>
                     <!-- Email  -->
-                    <p><?php the_field('email') ?></p>
+                    <p><span class="pr-2"><i class="fas fa-envelope-square"></i></span><?php the_field('email') ?></p>
+                    <!-- Telephone -->
+                    <?php if (the_field('telephone')): ?>
+                    <p><span class="pr-2"><i class="fas fa-mobile-alt"></i></span><?php the_field('telephone') ?></p>
+                    <?php endif ?>
                   </div>
 
               </div>
@@ -303,56 +311,60 @@
             <!-- Card deck -->
           </div>
           <!-- Grid row -->
-        <div class="row pb-4">
-          <div class="card-deck card-deck-width">
-            <?php
-              $homepageTeam = new WP_Query(array(
-                'posts_per_page' => 3,
-                'offset' => 3,
-                'post_type' => 'team',
-                'order' => 'ASC'
-              ));
+          <div class="row pb-4">
+            <div class="card-deck card-deck-width">
+              <?php
+                $homepageTeam = new WP_Query(array(
+                  'posts_per_page' => 3,
+                  'offset' => 3,
+                  'post_type' => 'team',
+                  'order' => 'ASC'
+                ));
 
-              while($homepageTeam->have_posts()) {
-                $homepageTeam->the_post(); ?>
+                while($homepageTeam->have_posts()) {
+                  $homepageTeam->the_post(); ?>
 
 
-              <!-- Card -->
-              <div class="card testimonial-card">
+                <!-- Card -->
+                <div class="card testimonial-card">
 
-                <!-- Background color -->
-                <div class="card-up team-card"></div>
+                  <!-- Background color -->
+                  <div class="card-up team-card"></div>
 
-                  <!-- Avatar -->
-                  <div class="avatar mx-auto white">
-                    <img src="<?php the_post_thumbnail_url('staffPortrait'); ?>" class="rounded-circle" alt="woman avatar">
-                  </div>
+                    <!-- Avatar -->
+                    <div class="avatar mx-auto white">
+                      <img src="<?php the_post_thumbnail_url('staffPortrait'); ?>" class="rounded-circle" alt="Staff Portrait">
+                    </div>
 
-                  <!-- Content -->
-                  <div class="card-body">
-                    <!-- Name -->
-                    <h4 class="card-title"><?php the_title(); ?></h4>
-                    <!-- Subtitle -->
-                    <h5 class="blue-text pb-2"><strong><?php the_field('title'); ?></strong></h5>
-                    <!-- Email  -->
-                    <p><?php the_field('email') ?></p>
-                  </div>
+                    <!-- Content -->
+                    <div class="card-body">
+                      <!-- Name -->
+                      <h4 class="card-title"><?php the_title(); ?></h4>
+                      <!-- Subtitle -->
+                      <h5 class="blue-text pb-2"><strong><?php the_field('title'); ?></strong></h5>
+                      <!-- Email  -->
+                      <p><span class="pr-2"><i class="fas fa-envelope-square"></i></span><?php the_field('email') ?></p>
+                      <!-- Telephone -->
+                      <?php if (get_field('telephone')) : ?>
+                      <p><span class="pr-2"><i class="fas fa-mobile-alt"></i></span><?php the_field('telephone') ?></p>
+                      <?php endif; ?>
+                    </div>
 
-              </div>
-              <!-- Card -->
-              <?php } ?>
+                </div>
+                <!-- Card -->
+                <?php } ?>
+            </div>
           </div>
-        </div>
-        <!-- Board Members -->
-        <h2 class="h2-responsive font-weight-bold text-center text-white my-5 pt-3">Our Board</h2>
-        <!-- Section description -->
-        <ul class="list-unstyled text-white pb-3">
-          <li><h5>Colin Havard - Independent Community Development Consultant</h5><p>Project management, staff management, financial and funding expertise, organisational issues.</p></li>
-          <li><h5>Tim Marsh - Independent Public Health Policy consultant</h5><p>Obesity, Food Poverty and Agricultural policy impact on Public Health.</p></li>
-          <li><h5>Kath Dalmeny - Sustain, the alliance for better food and farming</h5><p>Understanding of sustainability issues, environment and food policy.  Project management, media and communications expertise.</p></li>
-          <li><h5>Charlie Powell - Federation of City Farms & Community Gardens</h5><p>Campaigning development and strategy expertise, knowledge about food policy, and animal welfare and humane and sustainable agriculture.</p></li>
-          <li><h5>Lindy Sharpe - Writer and Researcher</h5><p>Expertise in the policy and governance of the food supply, sustainability (especially the social dimensions of sustainability), the food industry.</p></li>
-        </ul>
+          <!--
+          <h2 class="h2-responsive font-weight-bold text-center text-white my-5 pt-3">Our Board</h2>
+
+          <ul class="list-unstyled text-white pb-3">
+            <li><h5>Colin Havard - Independent Community Development Consultant</h5><p>Project management, staff management, financial and funding expertise, organisational issues.</p></li>
+            <li><h5>Tim Marsh - Independent Public Health Policy consultant</h5><p>Obesity, Food Poverty and Agricultural policy impact on Public Health.</p></li>
+            <li><h5>Kath Dalmeny - Sustain, the alliance for better food and farming</h5><p>Understanding of sustainability issues, environment and food policy.  Project management, media and communications expertise.</p></li>
+            <li><h5>Charlie Powell - Federation of City Farms & Community Gardens</h5><p>Campaigning development and strategy expertise, knowledge about food policy, and animal welfare and humane and sustainable agriculture.</p></li>
+            <li><h5>Lindy Sharpe - Writer and Researcher</h5><p>Expertise in the policy and governance of the food supply, sustainability (especially the social dimensions of sustainability), the food industry.</p></li>
+          </ul> -->
         </div>
       </div>
     </div>
