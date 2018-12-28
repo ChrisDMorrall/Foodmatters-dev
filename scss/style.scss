@@ -27,6 +27,13 @@ $color-com: #01B8F4; // Main C color */
   color: $color-sec2 !important;
 }
 
+a {
+  color: $color-sec1;
+}
+
+a:hover {
+  font-weight: bold;
+}
 
 
 // ***** Header *****
@@ -51,8 +58,6 @@ $color-com: #01B8F4; // Main C color */
 .navbar {
   box-shadow: none;
 }
-
-.fm
 
   /* Necessary for full page carousel*/
   html,
@@ -141,6 +146,12 @@ $color-com: #01B8F4; // Main C color */
   width: 1140px;
 }
 
+// ***** Page.php ******
+
+.page-bg {
+    background: url("dist/img/fm-background.jpg") no-repeat;
+    background-size: 100%;
+}
 
 // ***** Our Approach Page CSS *****
 

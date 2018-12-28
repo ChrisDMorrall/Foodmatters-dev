@@ -6,7 +6,7 @@ while(have_posts()) {
   the_post(); ?>
 
   <!-- Full Page Intro -->
-  <div class="page-bg">
+  <div class="view  jarallax our-approach-bg" data-jarallax='{"speed": 0.2}'>
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
       <!-- Content -->

@@ -15,6 +15,12 @@ Author URI: https://chrismorrall.me
 .fm-peach-text {
   color: #FFCC59 !important; }
 
+a {
+  color: #ff72a0; }
+
+a:hover {
+  font-weight: bold; }
+
 .nav-font {
   font-size: 1.5rem; }
 
@@ -32,7 +38,7 @@ Author URI: https://chrismorrall.me
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-.fm
+/* Necessary for full page carousel*/
 html,
 body,
 .view {
@@ -85,6 +91,11 @@ body,
 
 .card-deck-width {
   width: 1140px; }
+
+.page-bg {
+  background: url("dist/img/fm-background.jpg") no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100%; }
 
 .our-approach-bg {
   background: url("dist/img/our-approach-bg.jpg") no-repeat center center;

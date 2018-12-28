@@ -6,7 +6,7 @@ while(have_posts()) {
   the_post(); ?>
 
   <!-- Full Page Intro -->
-  <div class="view  jarallax our-approach-bg" data-jarallax='{"speed": 0.2}'>
+  <div class="page-bg">
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
       <!-- Content -->
@@ -14,7 +14,7 @@ while(have_posts()) {
         <!--Grid row-->
         <div class="row">
           <!--Grid column-->
-          <div class="col-md-12 text-white">
+          <div class="col-md-12 fm-peach-text">
             <h1 class="display-4 font-weight-bold mb-0 mt-md-5 mt-5 py-md-5 py-5 text-center"><?php the_title(); ?></h1>
             <h2 class="font-weight-bold"><?php the_field('subtitle'); ?></h2>
             <div class="container" >
@@ -41,10 +41,10 @@ while(have_posts()) {
                       <div class="col-lg-6 my-4 px-5">
                         <div class="card card-image wider" style="background-image: url(<?php echo $thumb_url; ?>)">
                           <!-- Content -->
-                            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                            <div class="fm-peach-text text-center d-flex align-items-center rgba-black-strong py-5 px-4">
                               <div class="content-height">
-                                <h3 class="card-title fm-peach-text pt-2"><strong><?php the_title(); ?></strong></h3>
-                                <p class="fm-peach-text"><?php the_field('our_work_description'); ?></p>
+                                <h3 class="card-title pt-2"><strong><?php the_title(); ?></strong></h3>
+                                <p class=""><?php the_field('our_work_description'); ?></p>
                                 <a href="<?php the_permalink(); ?>" class="btn btn-pink btn-rounded btn-bottom">Read More</a>
                               </div>
                             </div>
