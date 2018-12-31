@@ -71,12 +71,11 @@ body,
     background-color: #01B8F4; } }
 
 .content-height {
-  min-height: 256px; }
+  min-height: 290px; }
 
 .btn-bottom {
   position: absolute;
-  bottom: 40px;
-  left: 165px; }
+  bottom: 0px; }
 
 .resources-background {
   background: url("dist/img/resources-bg.jpg") no-repeat center center;
@@ -93,7 +92,7 @@ body,
   width: 1140px; }
 
 .page-bg {
-  background: url("dist/img/fm-background.jpg") no-repeat;
+  background: url("dist/img/fm-background.jpg");
   -webkit-background-size: 100% 100%;
   background-size: 100%; }
 

@@ -119,13 +119,13 @@ a:hover {
 // Our Work Section--
 
 .content-height {
-  min-height: 256px;
+  min-height: 290px;
 }
 
 .btn-bottom {
   position: absolute;
-  bottom: 40px;
-  left: 165px;
+  bottom: 0px;
+  // width: 100%;
 }
 
 // Resources Section
@@ -149,7 +149,7 @@ a:hover {
 // ***** Page.php ******
 
 .page-bg {
-    background: url("dist/img/fm-background.jpg") no-repeat;
+    background: url("dist/img/fm-background.jpg");
     background-size: 100%;
 }
 

@@ -117,11 +117,11 @@
             <div class="col-lg-6 my-4 px-5">
               <div class="card card-image wider" style="background-image: url(<?php echo $thumb_url; ?>)">
                 <!-- Content -->
-                  <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                    <div class="content-height">
+                  <div class="text-white text-center  rgba-black-strong py-3 px-4">
+                    <div class="content-height card-body d-flex flex-column align-items-center">
                       <h3 class="card-title fm-peach-text pt-2"><strong><?php the_title(); ?></strong></h3>
                       <p class="fm-peach-text"><?php the_field('our_work_description'); ?></p>
-                      <a href="<?php the_permalink(); ?>" class="btn btn-pink btn-rounded btn-bottom">Read More</a>
+                      <a href="<?php the_permalink(); ?>" class="btn btn-pink btn-rounded mt-auto">Read More</a>
                     </div>
                   </div>
               </div>
@@ -142,64 +142,39 @@
     <div class="full-bg-img">
       <div class="mask peach-gradient-rgba">
         <div class="container">
-            <h1 class="text-center h1-responsive font-weight-bold text-white py-5">Case Studies</h1>
-            <p class="text-center text-white w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
-            <!-- Grid row -->
-            <div class="row pb-4">
-              <div class="col-lg-6 my-3 px-4">
-                <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/report.jpg;">
-                  <!-- Content -->
-                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                      <div>
-                        <h3 class="card-title pt-2"><strong>Case Study One</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis velit, placeat aliquid est excepturi fuga aut similique dolorum.  Non, voluptatibus.</p>
-                        <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-6 my-3 px-4">
-                <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/toolkit.jpg;">
-                  <!-- Content -->
-                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                      <div>
-                        <h3 class="card-title pt-2"><strong>Case Study Two</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolor perferendis deleniti dolore inventore fuga nihil consectetur nam cumque excepturi.</p>
-                        <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <!-- Grid row -->
-            <div class="row pb-4">
-              <div class="col-lg-6 my-3 px-4">
-                <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/toolkit.jpg;">
-                  <!-- Content -->
-                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                      <div>
-                        <h3 class="card-title pt-2"><strong>Case Study Three</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum aliquid sunt, quisquam! Atque facilis officia enim in inventore. Non, voluptatibus.</p>
-                        <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-                      </div>
-                    </div>
-                </div>
-              </div>
-              <div class="col-lg-6 my-3 px-4">
-                <div class="card card-image wider" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dist/img/toolkit.jpg;">
-                  <!-- Content -->
-                    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                      <div>
-                        <h3 class="card-title pt-2"><strong>Case Study Four</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo repudiandae doloremque harum dolorem fugit quis fugiat cum tempora suscipit modi.</p>
-                        <a href="#" class="btn btn-pink btn-rounded">Read More</a>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-            <!-- Grid row -->
+          <h1 class="text-center h1-responsive font-weight-bold text-white py-5">Case Studies</h1>
+          <p class="text-center text-white w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+          <!-- Grid row -->
+          <div class="row pb-4">
+            <?php
+              $homepageCaseStudies = new WP_Query(array(
+                'posts_per_page' => 6,
+                'post_type' => 'case_studies',
+                'order' => 'ASC'
+              ));
 
+              while($homepageCaseStudies->have_posts()) {
+                $homepageCaseStudies->the_post();
+                $thumb_id = get_post_thumbnail_id();
+                $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'medium', true);
+                $thumb_url = $thumb_url_array[0];
+                 ?>
+                <div class="col-lg-6 my-3 px-4">
+                  <div class="card card-image wider" style="background-image: url(<?php echo $thumb_url; ?>)">
+                    <!-- Content -->
+                      <div class="fm-peach-text text-center  rgba-black-strong py-3 px-4">
+                        <div class="content-height card-body d-flex flex-column align-items-center">
+                          <h3 class="card-title pt-2"><strong><?php the_title(); ?></strong></h3>
+                          <p><?php the_field('case_study_description'); ?></p>
+                          <a href="<?php the_permalink(); ?>" class="btn btn-pink btn-rounded mt-auto">Read More</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+            <?php
+              }
+            ?>
+          </div>
         </div>
       </div>
     </div>

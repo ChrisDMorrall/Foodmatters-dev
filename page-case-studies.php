@@ -24,14 +24,14 @@ get_header();
               <!-- Grid row -->
               <div class="row pb-4">
                 <?php
-                  $homepageWork = new WP_Query(array(
+                  $homepageCaseStudies = new WP_Query(array(
                     'posts_per_page' => 6,
-                    'post_type' => 'work',
+                    'post_type' => 'case_studies',
                     'order' => 'ASC'
                   ));
 
-                  while($homepageWork->have_posts()) {
-                    $homepageWork->the_post();
+                  while($homepageCaseStudies->have_posts()) {
+                    $homepageCaseStudies->the_post();
                     $thumb_id = get_post_thumbnail_id();
                     $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'medium', true);
                     $thumb_url = $thumb_url_array[0];
@@ -42,7 +42,7 @@ get_header();
                             <div class="fm-peach-text text-center rgba-black-strong py-3 px-4">
                               <div class="content-height card-body flex-column d-flex align-items-center">
                                 <h3 class="card-title pt-2"><strong><?php the_title(); ?></strong></h3>
-                                <p class=""><?php the_field('our_work_description'); ?></p>
+                                <p class=""><?php the_field('case_study_description'); ?></p>
                                 <a href="<?php the_permalink(); ?>" class="btn btn-pink btn-rounded mt-auto">Read More</a>
                               </div>
                             </div>
